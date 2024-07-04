@@ -9,10 +9,16 @@
     <script src="./principal.js"></script>
 </head>
 <body>
-    <audio autoplay loop controls>
+    <audio id="backgroundAudio" hidden>
         <source src="./audio/background.mp3" type="audio/mpeg">
-        <source src="./audio/background.ogv" type="audio/ogv">
     </audio>
     <div id="bloque_juego"></div>
+    <script>
+        // JavaScript para manejar el clic en el div y reproducir el audio
+        document.getElementById('bloque_juego').addEventListener('click', function() {
+            var audio = document.getElementById('backgroundAudio');
+            audio.play();
+        });
+    </script>
 </body>
 </html>
