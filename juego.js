@@ -124,7 +124,7 @@ var Juego = {
 
 var Terminado = {
     create: function() {
-        var mensaje = "Ha perdido, ¿desea reiniciar?";
+        var mensaje = "VOLVER A INTENTARLO, ¿desea reiniciar?";
         var restart = confirm(mensaje);
         if (restart) {
             lives = 3;
