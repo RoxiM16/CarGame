@@ -138,7 +138,9 @@ var Terminado = {
 
 var NivelDos = {
     preload: function() {
-        juego.load.image('bg', 'img/bg.png'); 
+        juego.load.image('bg', './img/bg2.png');
+        juego.load.image('carro', './img/carro2.png');
+        juego.load.image('carroMalo', './img/carroMalo1.png');
     },
     create: function() {
         fondo = juego.add.tileSprite(0, 0, 290, 540, 'bg');
@@ -191,7 +193,9 @@ var NivelDos = {
 
 var NivelTres = {
     preload: function() {
-        juego.load.image('bg', 'img/bg.png');
+        juego.load.image('bg', './img/bg3.png');
+        juego.load.image('carro', './img/carro3.png');
+        juego.load.image('carroMalo', './img/carroMalo2.png');
     },
     create: function() {
         fondo = juego.add.tileSprite(0, 0, 290, 540, 'bg');
