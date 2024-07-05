@@ -14,7 +14,7 @@ var collisionSound;
 
 var Juego = {
     preload: function(){
-        juego.load.image('bg', 'img/bg.png');
+        juego.load.image('bg', 'img/bg2.png');
         juego.load.image('carro', 'img/carro.png');
         juego.load.image('carroMalo', 'img/carroMalo.png');
         juego.load.image('gasolina', 'img/gas.png');
